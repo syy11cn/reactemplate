@@ -28,7 +28,7 @@ export default defineConfig({
         },
       ],
     }),
-    Unocss('unocss.config.ts'),
+    Unocss(),
   ],
   test: {
     environment: 'jsdom',
