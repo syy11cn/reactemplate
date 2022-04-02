@@ -12,8 +12,20 @@ export default defineConfig({
     },
   },
   plugins: [
-    AutoImport(),
     react(),
+    AutoImport({
+      include: [
+        'src/**/*.{ts,tsx}',
+      ],
+      imports: [
+        {
+          react: [
+            'useState',
+            'useEffect',
+          ],
+        },
+      ],
+    }),
     UnoCSS(),
   ],
 })
