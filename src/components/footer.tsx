@@ -5,9 +5,9 @@ const Footer = () => {
 
   return <>
     {/* Toggle dark mode. */}
-    <button className={isDark ? 'i-carbon-sun' : 'i-carbon-moon'} onClick={() => toggleDark()}></button>
+    <button className={`icon-btn ${isDark ? 'i-carbon-sun' : 'i-carbon-moon'}`} onClick={() => toggleDark()}></button>
     {/* Github icon. */}
-    <button className="icon-btn i-carbon-github"></button>
+    <a className="icon-btn i-carbon-logo-github" href="https://github.com/syy11cn/reactemplate"></a>
   </>
 }
 
