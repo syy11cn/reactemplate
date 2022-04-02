@@ -5,6 +5,7 @@
     "jsx": "react-jsx",
     "module": "commonjs",
     "rootDir": "./src",
+    "baseUrl": "./",
     "allowJs": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
