@@ -3,6 +3,9 @@ import { createRoot } from 'react-dom/client'
 
 import App from './App'
 
+import '@unocss/reset/tailwind.css'
+import 'uno.css'
+
 const root = createRoot(document.getElementById('root') as HTMLElement)
 
 root.render(
