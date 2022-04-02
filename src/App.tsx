@@ -1,5 +1,11 @@
+import { useRoutes } from 'react-router-dom'
+import { routes } from './routes'
+
 const App = () => {
-  return <h1>Hello world</h1>
+  return <div>
+    <p>hello world</p>
+    {useRoutes(routes)}
+  </div>
 }
 
 export default App
