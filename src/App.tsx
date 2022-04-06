@@ -3,11 +3,10 @@ import Footer from './components/footer'
 import { routes } from './routes'
 
 const App = () => {
-  return <>
-    <p>hello world</p>
+  return <div className="text-center">
     {useRoutes(routes)}
     <Footer></Footer>
-  </>
+  </div>
 }
 
 export default App
